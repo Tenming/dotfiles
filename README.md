@@ -1,7 +1,7 @@
 # dotfiles
-Arch
-hyprland
-neovim
-waybar
-fish
-kitty
+Arch<br>
+hyprland<br>
+neovim<br>
+waybar<br>
+fish<br>
+kitty<br>
