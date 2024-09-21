@@ -1,4 +1,4 @@
-# :dotfiles:
+# <center>dotfiles</center>
 Arch<br>
 hyprland<br>
 neovim<br>
