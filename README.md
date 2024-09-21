@@ -1,2 +1,7 @@
 # dotfiles
-hyprland config
+Arch
+hyprland
+neovim
+waybar
+fish
+kitty
