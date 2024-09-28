@@ -1,0 +1,205 @@
+{"level":"info","ts":1727182995.4622333,"msg":"using config from file","file":"steamcommunity_302.caddy.json"}
+{"level":"info","ts":1727182995.4754906,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"warn","ts":1727182995.4755266,"msg":"Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies","adapter":"caddyfile","file":"steamcommunity_302.caddy.json","line":2}
+{"level":"warn","ts":1727182995.480152,"logger":"admin","msg":"admin endpoint disabled"}
+{"level":"info","ts":1727182995.4808028,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc000abfb00"}
+{"level":"warn","ts":1727182995.4809852,"logger":"tls","msg":"stapling OCSP","error":"no OCSP stapling for [steamcommunity302 steamcommunity.com *.steamcommunity.com twitch.tv www.twitch.tv *.twitch.tv *.chat.twitch.tv *.uploads-regional.twitch.tv *.help.twitch.tv *.dev.twitch.tv *.chat.twitch.tv usher.ttvnw.net discordapp.com *.discordapp.com *.discordapp.net *.discord.gg *.steampowered.com *.s3.amazonaws.com *.akamaihd.net *.cdn.ubi.com www.google.com steam-chat.com *.akamai.steamstatic.com discord.com *.discord.com mod.io *.mod.io *.imgix.net github.com *.github.com *.githubusercontent.com *.githubassets.com *.github.io github.io *.m7g.twitch.tv *.s-microsoft.com *.xboxlive.com *.origin.com onedrive.live.com skyapi.onedrive.live.com *.wikia.nocookie.net *.pdx01.abs.hls.ttvnw.net blockbench.net *.blockbench.net *.cm.steampowered.com *.jsdelivr.net *.lge.modcdn.io *.steamserver.net *.old.mod.io www.youtube.com *.gssv-play-prod.xboxlive.com *.core.gssv-play-prod.xboxlive.com *.auth.xboxlive.com *.steamstatic.com *.cloudflare.steamstatic.com *.akamaized.net discord.gg artstation.com *.artstation.com *.pinterest.com *.pinimg.com *.pinterest.info *.pinterest.jp *.pinterest.kr pin.it pinterest.com pinimg.com pinterest.info pinterest.jp pinterest.kr imgur.com *.imgur.com *.stack.imgur.com *.storage.googleapis.com *.googleapis.com *.mojang.com *.minecraft.net *.minecraftservices.com minecraft.net *.realms.minecraft.net *.download.minecraft.net vercel.app *.vercel.app vercel.com *.vercel.com mega.io *.mega.io mega.nz *.mega.nz *.api.mega.co.nz huggingface.co *.huggingface.co *.endpoints.huggingface.co *.autotrain.huggingface.co *.dl2.discordapp.net parsec.app *.parsec.app]: no OCSP server specified in certificate"}
+{"level":"info","ts":1727182995.481199,"logger":"http.auto_https","msg":"automatic HTTPS is completely disabled for server","server_name":"srv0"}
+{"level":"info","ts":1727182995.487131,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1727182995.4872808,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1727182995.4875946,"msg":"autosaved config (load with --resume flag)","file":"/root/.config/caddy/autosave.json"}
+{"level":"info","ts":1727182995.487607,"msg":"serving initial configuration"}
+{"level":"info","ts":1727182995.4913628,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/root/.local/share/caddy","instance":"b72f83d3-8e03-41ca-8763-b46d93442709","try_again":1727269395.4913611,"try_again_in":86399.999999309}
+{"level":"info","ts":1727182995.49152,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1727182995.6884217,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727182995.7012186,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727182995.7321038,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727182995.762493,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727182996.6875093,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183003.6459453,"msg":"not implemented","signal":"SIGHUP"}
+[sudo] erika 的密码：{"level":"info","ts":1727183019.1881773,"msg":"using config from file","file":"steamcommunity_302.caddy.json"}
+{"level":"info","ts":1727183019.2015393,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"warn","ts":1727183019.2015667,"msg":"Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies","adapter":"caddyfile","file":"steamcommunity_302.caddy.json","line":2}
+{"level":"warn","ts":1727183019.207128,"logger":"admin","msg":"admin endpoint disabled"}
+{"level":"info","ts":1727183019.207748,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc0008f2600"}
+{"level":"warn","ts":1727183019.2079225,"logger":"tls","msg":"stapling OCSP","error":"no OCSP stapling for [steamcommunity302 steamcommunity.com *.steamcommunity.com twitch.tv www.twitch.tv *.twitch.tv *.chat.twitch.tv *.uploads-regional.twitch.tv *.help.twitch.tv *.dev.twitch.tv *.chat.twitch.tv usher.ttvnw.net discordapp.com *.discordapp.com *.discordapp.net *.discord.gg *.steampowered.com *.s3.amazonaws.com *.akamaihd.net *.cdn.ubi.com www.google.com steam-chat.com *.akamai.steamstatic.com discord.com *.discord.com mod.io *.mod.io *.imgix.net github.com *.github.com *.githubusercontent.com *.githubassets.com *.github.io github.io *.m7g.twitch.tv *.s-microsoft.com *.xboxlive.com *.origin.com onedrive.live.com skyapi.onedrive.live.com *.wikia.nocookie.net *.pdx01.abs.hls.ttvnw.net blockbench.net *.blockbench.net *.cm.steampowered.com *.jsdelivr.net *.lge.modcdn.io *.steamserver.net *.old.mod.io www.youtube.com *.gssv-play-prod.xboxlive.com *.core.gssv-play-prod.xboxlive.com *.auth.xboxlive.com *.steamstatic.com *.cloudflare.steamstatic.com *.akamaized.net discord.gg artstation.com *.artstation.com *.pinterest.com *.pinimg.com *.pinterest.info *.pinterest.jp *.pinterest.kr pin.it pinterest.com pinimg.com pinterest.info pinterest.jp pinterest.kr imgur.com *.imgur.com *.stack.imgur.com *.storage.googleapis.com *.googleapis.com *.mojang.com *.minecraft.net *.minecraftservices.com minecraft.net *.realms.minecraft.net *.download.minecraft.net vercel.app *.vercel.app vercel.com *.vercel.com mega.io *.mega.io mega.nz *.mega.nz *.api.mega.co.nz huggingface.co *.huggingface.co *.endpoints.huggingface.co *.autotrain.huggingface.co *.dl2.discordapp.net parsec.app *.parsec.app]: no OCSP server specified in certificate"}
+{"level":"info","ts":1727183019.2081375,"logger":"http.auto_https","msg":"automatic HTTPS is completely disabled for server","server_name":"srv0"}
+{"level":"info","ts":1727183019.2123525,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1727183019.2127297,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1727183019.2134805,"msg":"autosaved config (load with --resume flag)","file":"/root/.config/caddy/autosave.json"}
+{"level":"info","ts":1727183019.2134984,"msg":"serving initial configuration"}
+{"level":"info","ts":1727183019.2145329,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/root/.local/share/caddy","instance":"b72f83d3-8e03-41ca-8763-b46d93442709","try_again":1727269419.214532,"try_again_in":86399.99999974}
+{"level":"info","ts":1727183019.2146173,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1727183019.4140754,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183019.4166062,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183019.4198868,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183019.4232676,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183019.4421258,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183051.6040895,"msg":"using config from file","file":"steamcommunity_302.caddy.json"}
+{"level":"info","ts":1727183051.6182182,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"warn","ts":1727183051.6182508,"msg":"Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies","adapter":"caddyfile","file":"steamcommunity_302.caddy.json","line":2}
+{"level":"warn","ts":1727183051.6240969,"logger":"admin","msg":"admin endpoint disabled"}
+{"level":"info","ts":1727183051.625085,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc000067a00"}
+{"level":"warn","ts":1727183051.6253273,"logger":"tls","msg":"stapling OCSP","error":"no OCSP stapling for [steamcommunity302 steamcommunity.com *.steamcommunity.com twitch.tv www.twitch.tv *.twitch.tv *.chat.twitch.tv *.uploads-regional.twitch.tv *.help.twitch.tv *.dev.twitch.tv *.chat.twitch.tv usher.ttvnw.net discordapp.com *.discordapp.com *.discordapp.net *.discord.gg *.steampowered.com *.s3.amazonaws.com *.akamaihd.net *.cdn.ubi.com www.google.com steam-chat.com *.akamai.steamstatic.com discord.com *.discord.com mod.io *.mod.io *.imgix.net github.com *.github.com *.githubusercontent.com *.githubassets.com *.github.io github.io *.m7g.twitch.tv *.s-microsoft.com *.xboxlive.com *.origin.com onedrive.live.com skyapi.onedrive.live.com *.wikia.nocookie.net *.pdx01.abs.hls.ttvnw.net blockbench.net *.blockbench.net *.cm.steampowered.com *.jsdelivr.net *.lge.modcdn.io *.steamserver.net *.old.mod.io www.youtube.com *.gssv-play-prod.xboxlive.com *.core.gssv-play-prod.xboxlive.com *.auth.xboxlive.com *.steamstatic.com *.cloudflare.steamstatic.com *.akamaized.net discord.gg artstation.com *.artstation.com *.pinterest.com *.pinimg.com *.pinterest.info *.pinterest.jp *.pinterest.kr pin.it pinterest.com pinimg.com pinterest.info pinterest.jp pinterest.kr imgur.com *.imgur.com *.stack.imgur.com *.storage.googleapis.com *.googleapis.com *.mojang.com *.minecraft.net *.minecraftservices.com minecraft.net *.realms.minecraft.net *.download.minecraft.net vercel.app *.vercel.app vercel.com *.vercel.com mega.io *.mega.io mega.nz *.mega.nz *.api.mega.co.nz huggingface.co *.huggingface.co *.endpoints.huggingface.co *.autotrain.huggingface.co *.dl2.discordapp.net parsec.app *.parsec.app]: no OCSP server specified in certificate"}
+{"level":"info","ts":1727183051.6255522,"logger":"http.auto_https","msg":"automatic HTTPS is completely disabled for server","server_name":"srv0"}
+{"level":"info","ts":1727183051.6316826,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1727183051.6318188,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1727183051.6320562,"msg":"autosaved config (load with --resume flag)","file":"/root/.config/caddy/autosave.json"}
+{"level":"info","ts":1727183051.6320689,"msg":"serving initial configuration"}
+{"level":"info","ts":1727183051.6331062,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/root/.local/share/caddy","instance":"b72f83d3-8e03-41ca-8763-b46d93442709","try_again":1727269451.6331055,"try_again_in":86399.999999729}
+{"level":"info","ts":1727183051.6331794,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1727183051.8157234,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183051.817448,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183051.8462555,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183051.9365096,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183052.8346615,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183063.1765826,"msg":"using config from file","file":"steamcommunity_302.caddy.json"}
+{"level":"info","ts":1727183063.1889453,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"warn","ts":1727183063.1889713,"msg":"Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies","adapter":"caddyfile","file":"steamcommunity_302.caddy.json","line":2}
+{"level":"warn","ts":1727183063.195647,"logger":"admin","msg":"admin endpoint disabled"}
+{"level":"info","ts":1727183063.1963334,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc00082c800"}
+{"level":"warn","ts":1727183063.1964717,"logger":"tls","msg":"stapling OCSP","error":"no OCSP stapling for [steamcommunity302 steamcommunity.com *.steamcommunity.com twitch.tv www.twitch.tv *.twitch.tv *.chat.twitch.tv *.uploads-regional.twitch.tv *.help.twitch.tv *.dev.twitch.tv *.chat.twitch.tv usher.ttvnw.net discordapp.com *.discordapp.com *.discordapp.net *.discord.gg *.steampowered.com *.s3.amazonaws.com *.akamaihd.net *.cdn.ubi.com www.google.com steam-chat.com *.akamai.steamstatic.com discord.com *.discord.com mod.io *.mod.io *.imgix.net github.com *.github.com *.githubusercontent.com *.githubassets.com *.github.io github.io *.m7g.twitch.tv *.s-microsoft.com *.xboxlive.com *.origin.com onedrive.live.com skyapi.onedrive.live.com *.wikia.nocookie.net *.pdx01.abs.hls.ttvnw.net blockbench.net *.blockbench.net *.cm.steampowered.com *.jsdelivr.net *.lge.modcdn.io *.steamserver.net *.old.mod.io www.youtube.com *.gssv-play-prod.xboxlive.com *.core.gssv-play-prod.xboxlive.com *.auth.xboxlive.com *.steamstatic.com *.cloudflare.steamstatic.com *.akamaized.net discord.gg artstation.com *.artstation.com *.pinterest.com *.pinimg.com *.pinterest.info *.pinterest.jp *.pinterest.kr pin.it pinterest.com pinimg.com pinterest.info pinterest.jp pinterest.kr imgur.com *.imgur.com *.stack.imgur.com *.storage.googleapis.com *.googleapis.com *.mojang.com *.minecraft.net *.minecraftservices.com minecraft.net *.realms.minecraft.net *.download.minecraft.net vercel.app *.vercel.app vercel.com *.vercel.com mega.io *.mega.io mega.nz *.mega.nz *.api.mega.co.nz huggingface.co *.huggingface.co *.endpoints.huggingface.co *.autotrain.huggingface.co *.dl2.discordapp.net parsec.app *.parsec.app]: no OCSP server specified in certificate"}
+{"level":"info","ts":1727183063.1966808,"logger":"http.auto_https","msg":"automatic HTTPS is completely disabled for server","server_name":"srv0"}
+{"level":"info","ts":1727183063.2021737,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1727183063.2023256,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1727183063.2025514,"msg":"autosaved config (load with --resume flag)","file":"/root/.config/caddy/autosave.json"}
+{"level":"info","ts":1727183063.202563,"msg":"serving initial configuration"}
+{"level":"info","ts":1727183063.2064536,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/root/.local/share/caddy","instance":"b72f83d3-8e03-41ca-8763-b46d93442709","try_again":1727269463.2064521,"try_again_in":86399.999999639}
+{"level":"info","ts":1727183063.2065573,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1727183063.392477,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183063.4054043,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183063.4128182,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183063.4777892,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183063.737666,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183096.728708,"msg":"not implemented","signal":"SIGHUP"}
+{"level":"info","ts":1727183096.7287102,"msg":"not implemented","signal":"SIGHUP"}
+{"level":"info","ts":1727183115.555498,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183115.5555298,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183115.5569727,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183115.558188,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183115.5662577,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183171.7027574,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183171.703176,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183171.7055473,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183171.7102318,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183171.7125587,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183183.2700014,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183183.271844,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183183.2725437,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183183.2749832,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183183.2795877,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183235.555259,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183235.5554447,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183235.5576532,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183235.5577483,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183235.5673018,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183291.6972206,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183291.6990445,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183291.700313,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183291.7081938,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183291.7083414,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183303.2654061,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183303.2656481,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183303.2699637,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183303.2700162,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183303.272338,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183355.5534077,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183355.5538862,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183355.556077,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183355.5570843,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183355.5647945,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183411.6952858,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183411.6962552,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183411.6982625,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183411.7017963,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183411.7054513,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183423.2686207,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183423.2701805,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183423.2738194,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183423.2765462,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183423.2768779,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183475.555279,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183475.5574276,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183475.5574372,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183475.5592418,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183475.6632066,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183531.6974633,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183531.70033,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183531.7007442,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183531.708405,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183531.7145877,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183543.2699115,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183543.2705011,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183543.2739706,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183543.2767096,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183543.2774086,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183595.5544686,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183595.556329,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183595.5575063,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183595.5612566,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183595.5660372,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183651.6962967,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183651.6969585,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183651.7000577,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183651.7041028,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183651.706532,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183663.2667859,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183663.2692177,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183663.2703402,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183663.2717786,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183663.2744966,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183715.5553632,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183715.5566847,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183715.5572057,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183715.5577414,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183715.5666797,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183771.6968238,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183771.6985865,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183771.700138,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183771.7043965,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183771.708111,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183783.2658226,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183783.2674084,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183783.271401,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183783.2736104,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183783.2757628,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183835.554364,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183835.5572422,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183835.5579212,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183835.5664587,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183835.5681062,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183891.6944773,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183891.695868,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183891.6993148,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183891.7055109,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183891.7104378,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183903.2662067,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.136.232:443"}
+{"level":"info","ts":1727183903.2675016,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.128.233:443"}
+{"level":"info","ts":1727183903.273368,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.137.232:443"}
+{"level":"info","ts":1727183903.273652,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.135.232:443"}
+{"level":"info","ts":1727183903.279547,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"host is up","host":"162.159.138.232:443"}
+{"level":"info","ts":1727183916.6253402,"msg":"not implemented","signal":"SIGHUP"}
+{"level":"info","ts":1727183916.6255152,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1727183916.6255474,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1727183916.625613,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1727183916.6263745,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1727183919.8147097,"msg":"not implemented","signal":"SIGHUP"}
+{"level":"info","ts":1727183919.8148208,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1727183919.8148437,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1727183919.8148887,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1727183919.81863,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"HTTP request failed","host":"162.159.138.232:443","error":"Get \"https://162.159.138.232:443/cdn-cgi/trace\": context canceled"}
+{"level":"info","ts":1727183919.8186276,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"HTTP request failed","host":"162.159.135.232:443","error":"Get \"https://162.159.135.232:443/cdn-cgi/trace\": context canceled"}
+{"level":"info","ts":1727183919.8186598,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"HTTP request failed","host":"162.159.137.232:443","error":"Get \"https://162.159.137.232:443/cdn-cgi/trace\": context canceled"}
+{"level":"info","ts":1727183919.8186657,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"HTTP request failed","host":"162.159.136.232:443","error":"Get \"https://162.159.136.232:443/cdn-cgi/trace\": context canceled"}
+{"level":"info","ts":1727183919.8186574,"logger":"http.handlers.reverse_proxy.health_checker.active","msg":"HTTP request failed","host":"162.159.128.233:443","error":"Get \"https://162.159.128.233:443/cdn-cgi/trace\": context canceled"}
+{"level":"info","ts":1727183919.8187525,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1727183923.7732728,"msg":"not implemented","signal":"SIGHUP"}
+{"level":"info","ts":1727183923.7733555,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1727183923.7733827,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1727183923.7734597,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1727183923.7741463,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1727183935.7716045,"msg":"not implemented","signal":"SIGHUP"}
+{"level":"info","ts":1727183935.771698,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1727183935.7717102,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1727183935.7717607,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1727183935.7724144,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
