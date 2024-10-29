@@ -1,1 +1,1 @@
-alias sudo="sudo -E"
+alias nvim="sudo -E nvim"
