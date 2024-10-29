@@ -6,6 +6,6 @@ WM: hyprland<br>
 状态栏: waybar<br>
 shell: fish<br>
 终端: kitty<br>
-音乐：mpd,ncmcpp
-文件管理器：yazi,dolphin
-壁纸：hyprpaper
+音乐：mpd,ncmcpp<br>
+文件管理器：yazi,dolphin<br>
+壁纸：hyprpaper<br>
