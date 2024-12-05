@@ -1,8 +1,8 @@
 # dotfiles
 个人的配置文件
-## neovim
+### neovim
 使用lazy包管理器管理neovim插件。
-## fish
+### fish
 主题和问候语。
 ## Yazi
 终端文件管理器。
