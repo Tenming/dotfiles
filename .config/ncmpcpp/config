@@ -1,0 +1,4 @@
+mpd_connection_timeout = 5
+mpd_music_dir = ~/Music
+lyrics_directory = ~/Music/lyrics
+mpd_crossfade_time = 5
